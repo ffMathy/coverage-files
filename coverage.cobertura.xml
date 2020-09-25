@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.1603" branch-rate="0.17850000000000002" version="1.9" timestamp="1601069172" lines-covered="21" lines-valid="131" branches-covered="5" branches-valid="28">
+<coverage line-rate="0.44770000000000004" branch-rate="0.17850000000000002" version="1.9" timestamp="1601072220" lines-covered="90" lines-valid="201" branches-covered="5" branches-valid="28">
   <sources>
-    <source>C:\Users\mathi\source\repos\aspnetcore-tests-sample\src\SampleApp\</source>
+    <source>C:\Users\mathi\</source>
   </sources>
   <packages>
     <package name="SampleApp" line-rate="0.1603" branch-rate="0.17850000000000002" complexity="43">
       <classes>
-        <class name="SampleApp.Program" filename="Program.cs" line-rate="0" branch-rate="0" complexity="3">
+        <class name="SampleApp.Program" filename="source\repos\aspnetcore-tests-sample\src\SampleApp\Program.cs" line-rate="0" branch-rate="0" complexity="3">
           <methods>
             <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="0" complexity="2">
               <lines>
@@ -62,7 +62,7 @@
             <line number="30" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="SampleApp.Startup" filename="Startup.cs" line-rate="0" branch-rate="0" complexity="8">
+        <class name="SampleApp.Startup" filename="source\repos\aspnetcore-tests-sample\src\SampleApp\Startup.cs" line-rate="0" branch-rate="0" complexity="8">
           <methods>
             <method name="get_Configuration" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -188,7 +188,7 @@
             <line number="26" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="SampleApp.Models.Product" filename="Models\Product.cs" line-rate="0.75" branch-rate="1" complexity="4">
+        <class name="SampleApp.Models.Product" filename="source\repos\aspnetcore-tests-sample\src\SampleApp\Models\Product.cs" line-rate="0.75" branch-rate="1" complexity="4">
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -218,7 +218,7 @@
             <line number="9" hits="3" branch="False" />
           </lines>
         </class>
-        <class name="SampleApp.Models.ProductsRepository" filename="Models\ProductsRepository.cs" line-rate="0" branch-rate="1" complexity="2">
+        <class name="SampleApp.Models.ProductsRepository" filename="source\repos\aspnetcore-tests-sample\src\SampleApp\Models\ProductsRepository.cs" line-rate="0" branch-rate="1" complexity="2">
           <methods>
             <method name="ExistsAsync" signature="(System.Int32)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -236,7 +236,7 @@
             <line number="20" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="SampleApp.Models.ProductsRepository/&lt;CreateAsync&gt;d__2" filename="Models\ProductsRepository.cs" line-rate="0" branch-rate="0" complexity="2">
+        <class name="SampleApp.Models.ProductsRepository/&lt;CreateAsync&gt;d__2" filename="source\repos\aspnetcore-tests-sample\src\SampleApp\Models\ProductsRepository.cs" line-rate="0" branch-rate="0" complexity="2">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="2">
               <lines>
@@ -268,7 +268,7 @@
             <line number="31" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="SampleApp.Models.ProductsRepository/&lt;GetAsync&gt;d__3" filename="Models\ProductsRepository.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="SampleApp.Models.ProductsRepository/&lt;GetAsync&gt;d__3" filename="source\repos\aspnetcore-tests-sample\src\SampleApp\Models\ProductsRepository.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -280,7 +280,7 @@
             <line number="33" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="SampleApp.Models.ProductsRepository/&lt;GetAllAsync&gt;d__4" filename="Models\ProductsRepository.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="SampleApp.Models.ProductsRepository/&lt;GetAllAsync&gt;d__4" filename="source\repos\aspnetcore-tests-sample\src\SampleApp\Models\ProductsRepository.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -292,7 +292,7 @@
             <line number="35" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="SampleApp.Models.ProductsRepository/&lt;UpdateAsync&gt;d__5" filename="Models\ProductsRepository.cs" line-rate="0" branch-rate="0" complexity="4">
+        <class name="SampleApp.Models.ProductsRepository/&lt;UpdateAsync&gt;d__5" filename="source\repos\aspnetcore-tests-sample\src\SampleApp\Models\ProductsRepository.cs" line-rate="0" branch-rate="0" complexity="4">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="4">
               <lines>
@@ -346,7 +346,7 @@
             <line number="53" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="SampleApp.Models.ProductsRepository/&lt;DeleteAsync&gt;d__7" filename="Models\ProductsRepository.cs" line-rate="0" branch-rate="0" complexity="2">
+        <class name="SampleApp.Models.ProductsRepository/&lt;DeleteAsync&gt;d__7" filename="source\repos\aspnetcore-tests-sample\src\SampleApp\Models\ProductsRepository.cs" line-rate="0" branch-rate="0" complexity="2">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="2">
               <lines>
@@ -380,7 +380,7 @@
             <line number="65" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="SampleApp.Models.SampleAppContext" filename="Models\SampleAppContext.cs" line-rate="0" branch-rate="1" complexity="2">
+        <class name="SampleApp.Models.SampleAppContext" filename="source\repos\aspnetcore-tests-sample\src\SampleApp\Models\SampleAppContext.cs" line-rate="0" branch-rate="1" complexity="2">
           <methods>
             <method name="get_Product" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -402,7 +402,7 @@
             <line number="10" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="SampleApp.Controllers.ProductsController" filename="Controllers\ProductsController.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="SampleApp.Controllers.ProductsController" filename="source\repos\aspnetcore-tests-sample\src\SampleApp\Controllers\ProductsController.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name=".ctor" signature="(SampleApp.Models.IProductsRepository)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -414,7 +414,7 @@
             <line number="14" hits="14" branch="False" />
           </lines>
         </class>
-        <class name="SampleApp.Controllers.ProductsController/&lt;GetProduct&gt;d__2" filename="Controllers\ProductsController.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="SampleApp.Controllers.ProductsController/&lt;GetProduct&gt;d__2" filename="source\repos\aspnetcore-tests-sample\src\SampleApp\Controllers\ProductsController.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -432,7 +432,7 @@
             <line number="22" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="SampleApp.Controllers.ProductsController/&lt;GetProduct&gt;d__3" filename="Controllers\ProductsController.cs" line-rate="0.8332999999999999" branch-rate="0.5" complexity="2">
+        <class name="SampleApp.Controllers.ProductsController/&lt;GetProduct&gt;d__3" filename="source\repos\aspnetcore-tests-sample\src\SampleApp\Controllers\ProductsController.cs" line-rate="0.8332999999999999" branch-rate="0.5" complexity="2">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0.8332999999999999" branch-rate="0.5" complexity="2">
               <lines>
@@ -462,7 +462,7 @@
             <line number="32" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="SampleApp.Controllers.ProductsController/&lt;PutProduct&gt;d__4" filename="Controllers\ProductsController.cs" line-rate="0" branch-rate="0" complexity="4">
+        <class name="SampleApp.Controllers.ProductsController/&lt;PutProduct&gt;d__4" filename="source\repos\aspnetcore-tests-sample\src\SampleApp\Controllers\ProductsController.cs" line-rate="0" branch-rate="0" complexity="4">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="4">
               <lines>
@@ -504,7 +504,7 @@
             <line number="44" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="SampleApp.Controllers.ProductsController/&lt;PostProduct&gt;d__5" filename="Controllers\ProductsController.cs" line-rate="1" branch-rate="1" complexity="4">
+        <class name="SampleApp.Controllers.ProductsController/&lt;PostProduct&gt;d__5" filename="source\repos\aspnetcore-tests-sample\src\SampleApp\Controllers\ProductsController.cs" line-rate="1" branch-rate="1" complexity="4">
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="4">
               <lines>
@@ -546,7 +546,7 @@
             <line number="56" hits="5" branch="False" />
           </lines>
         </class>
-        <class name="SampleApp.Controllers.ProductsController/&lt;DeleteProduct&gt;d__6" filename="Controllers\ProductsController.cs" line-rate="0" branch-rate="0" complexity="2">
+        <class name="SampleApp.Controllers.ProductsController/&lt;DeleteProduct&gt;d__6" filename="source\repos\aspnetcore-tests-sample\src\SampleApp\Controllers\ProductsController.cs" line-rate="0" branch-rate="0" complexity="2">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="2">
               <lines>
@@ -574,6 +574,266 @@
             <line number="64" hits="0" branch="False" />
             <line number="65" hits="0" branch="False" />
             <line number="66" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="UnitTests" line-rate="0.9856999999999999" branch-rate="1" complexity="14">
+      <classes>
+        <class name="AutoGeneratedProgram" filename=".nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTests.Generator" filename="source\repos\aspnetcore-tests-sample\test\UnitTests\Generator.Product.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Product" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ProductWithNegativePrice" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="1" branch="False" />
+                <line number="11" hits="1" branch="False" />
+                <line number="12" hits="6" branch="False" />
+                <line number="13" hits="6" branch="False" />
+                <line number="14" hits="6" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="2" branch="False" />
+                <line number="20" hits="2" branch="False" />
+                <line number="21" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="5" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="10" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="6" branch="False" />
+            <line number="13" hits="6" branch="False" />
+            <line number="14" hits="6" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="2" branch="False" />
+            <line number="20" hits="2" branch="False" />
+            <line number="21" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTests.ProductControllerTests/&lt;GetAllSucceeds&gt;d__0" filename="source\repos\aspnetcore-tests-sample\test\UnitTests\ProductControllerTests.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTests.ProductControllerTests/&lt;GetOneSucceeds&gt;d__1" filename="source\repos\aspnetcore-tests-sample\test\UnitTests\ProductControllerTests.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="31" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTests.ProductControllerTests/&lt;PostSucceedsReturnsCorrectStatusCode&gt;d__2" filename="source\repos\aspnetcore-tests-sample\test\UnitTests\ProductControllerTests.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="43" hits="1" branch="False" />
+                <line number="45" hits="1" branch="False" />
+                <line number="46" hits="1" branch="False" />
+                <line number="47" hits="1" branch="False" />
+                <line number="48" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="43" hits="1" branch="False" />
+            <line number="45" hits="1" branch="False" />
+            <line number="46" hits="1" branch="False" />
+            <line number="47" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTests.ProductControllerTests/&lt;PostSucceedsReturnsProduct&gt;d__3" filename="source\repos\aspnetcore-tests-sample\test\UnitTests\ProductControllerTests.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="57" hits="1" branch="False" />
+                <line number="59" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
+                <line number="61" hits="1" branch="False" />
+                <line number="62" hits="1" branch="False" />
+                <line number="64" hits="1" branch="False" />
+                <line number="66" hits="1" branch="False" />
+                <line number="67" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="57" hits="1" branch="False" />
+            <line number="59" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+            <line number="61" hits="1" branch="False" />
+            <line number="62" hits="1" branch="False" />
+            <line number="64" hits="1" branch="False" />
+            <line number="66" hits="1" branch="False" />
+            <line number="67" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTests.ProductControllerTests/&lt;PostSucceedsReturnsCorrectRoute&gt;d__4" filename="source\repos\aspnetcore-tests-sample\test\UnitTests\ProductControllerTests.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="71" hits="1" branch="False" />
+                <line number="73" hits="1" branch="False" />
+                <line number="74" hits="1" branch="False" />
+                <line number="75" hits="1" branch="False" />
+                <line number="76" hits="1" branch="False" />
+                <line number="77" hits="1" branch="False" />
+                <line number="79" hits="1" branch="False" />
+                <line number="81" hits="1" branch="False" />
+                <line number="82" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="71" hits="1" branch="False" />
+            <line number="73" hits="1" branch="False" />
+            <line number="74" hits="1" branch="False" />
+            <line number="75" hits="1" branch="False" />
+            <line number="76" hits="1" branch="False" />
+            <line number="77" hits="1" branch="False" />
+            <line number="79" hits="1" branch="False" />
+            <line number="81" hits="1" branch="False" />
+            <line number="82" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTests.ProductControllerTests/&lt;PostSucceedsSavesToRepository&gt;d__5" filename="source\repos\aspnetcore-tests-sample\test\UnitTests\ProductControllerTests.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="86" hits="1" branch="False" />
+                <line number="88" hits="1" branch="False" />
+                <line number="89" hits="1" branch="False" />
+                <line number="90" hits="1" branch="False" />
+                <line number="92" hits="1" branch="False" />
+                <line number="94" hits="1" branch="False" />
+                <line number="95" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="86" hits="1" branch="False" />
+            <line number="88" hits="1" branch="False" />
+            <line number="89" hits="1" branch="False" />
+            <line number="90" hits="1" branch="False" />
+            <line number="92" hits="1" branch="False" />
+            <line number="94" hits="1" branch="False" />
+            <line number="95" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTests.ProductControllerTests/&lt;PostWithProductWithNegativePriceReturnsBadResult&gt;d__6" filename="source\repos\aspnetcore-tests-sample\test\UnitTests\ProductControllerTests.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="99" hits="1" branch="False" />
+                <line number="101" hits="1" branch="False" />
+                <line number="102" hits="1" branch="False" />
+                <line number="103" hits="1" branch="False" />
+                <line number="104" hits="1" branch="False" />
+                <line number="106" hits="1" branch="False" />
+                <line number="108" hits="1" branch="False" />
+                <line number="109" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="99" hits="1" branch="False" />
+            <line number="101" hits="1" branch="False" />
+            <line number="102" hits="1" branch="False" />
+            <line number="103" hits="1" branch="False" />
+            <line number="104" hits="1" branch="False" />
+            <line number="106" hits="1" branch="False" />
+            <line number="108" hits="1" branch="False" />
+            <line number="109" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTests.ProductTests" filename="source\repos\aspnetcore-tests-sample\test\UnitTests\ProductTests.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="IsExpensive" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="IsExactlyExpensive" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="IsNotExpensive" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
           </lines>
         </class>
       </classes>
