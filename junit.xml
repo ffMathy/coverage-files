@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testsuites time="0.285" tests="10" failures="0">
+  <testsuite id="0" name="UnitTests.dll" tests="10" failures="0" time="0.285">
+    <testcase classname="UnitTests.ProductControllerTests" name="GetAllSucceeds" time="0.1420000" />
+    <testcase classname="UnitTests.ProductControllerTests" name="GetOneSucceeds" time="0.1140000" />
+    <testcase classname="UnitTests.ProductControllerTests" name="PostSucceedsReturnsCorrectRoute" time="0.0150000" />
+    <testcase classname="UnitTests.ProductControllerTests" name="PostSucceedsReturnsCorrectStatusCode" time="0.0030000" />
+    <testcase classname="UnitTests.ProductControllerTests" name="PostSucceedsReturnsProduct" time="0.0010000" />
+    <testcase classname="UnitTests.ProductControllerTests" name="PostSucceedsSavesToRepository" time="0.0080000" />
+    <testcase classname="UnitTests.ProductControllerTests" name="PostWithProductWithNegativePriceReturnsBadResult" time="0.0010000" />
+    <testcase classname="UnitTests.ProductTests" name="IsExactlyExpensive" time="0.0010000" />
+    <testcase classname="UnitTests.ProductTests" name="IsExpensive" time="0.0000001" />
+    <testcase classname="UnitTests.ProductTests" name="IsNotExpensive" time="0.0000001" />
+  </testsuite>
+</testsuites>
